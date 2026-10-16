@@ -46,7 +46,7 @@ class MainActivity : Activity() {
     private val pickedUris = mutableListOf<Uri>()
     private val pickedNames = mutableListOf<String>()
     private val prefs by lazy { getSharedPreferences("sender", Context.MODE_PRIVATE) }
-    private val alias = "ghantas_embed_sender_key"
+    private val alias = "Bot_Message_sender_key"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
