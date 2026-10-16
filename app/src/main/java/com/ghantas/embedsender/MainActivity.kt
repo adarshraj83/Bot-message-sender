@@ -64,7 +64,7 @@ class MainActivity : Activity() {
         val root = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL; setBackgroundColor(Color.rgb(245,245,245)); setPadding(dp(18), dp(14), dp(18), dp(18)) }
         val scroll = ScrollView(this)
         val content = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
-        val heading = TextView(this).apply { text = "GHANTA'S EMBED SENDER"; textSize = 22f; setTextColor(dark); typeface = Typeface.DEFAULT_BOLD; gravity = Gravity.CENTER; setPadding(0, dp(12), 0, dp(4)) }
+        val heading = TextView(this).apply { text = "BOT MESSAGE SENDER"; textSize = 22f; setTextColor(dark); typeface = Typeface.DEFAULT_BOLD; gravity = Gravity.CENTER; setPadding(0, dp(12), 0, dp(4)) }
         content.addView(heading)
         val sub = TextView(this).apply { text = "Send Discord messages • Gold embeds • GIFs"; textSize = 13f; setTextColor(Color.DKGRAY); gravity = Gravity.CENTER; setPadding(0,0,0,dp(16)) }
         content.addView(sub)
